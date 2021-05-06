@@ -1,0 +1,16 @@
+/* GLOBAL */
+:root {
+    --dark-gray: rgb(80, 86, 102);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/***** STYLES *****/
+
+h1 {
+    font-size: 40px;
+    color: var(--dark-gray);
+}
