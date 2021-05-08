@@ -411,7 +411,7 @@ a {
 /* explore */
 .explore {
     background-color: var(--light-gray);
-    margin:0 auto 100px;
+    margin:0 auto;
     padding: 112px 48px;
     max-width: 1500px;
     font-family: 'Roboto', sans-serif;
@@ -475,6 +475,111 @@ a {
     background-size: cover;
     background-position: 50%;
 }   
+
+/* subscribe */
+.subscribe {
+    max-width: 1500px;
+    height: 336px;
+    padding: 4em;
+    background: #000 url(https://next.tnwcdn.com/assets/next/img/spacesbg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 1;
+}
+
+.subscribe > h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: -0.025em;
+    margin-bottom: 24px;
+}
+
+.subscribe > p {
+    margin-bottom: 24px;
+}
+
+.subscribe > p a{
+    color: hsl(190, 100%, 50%);
+}
+
+.sub-form-container form {
+    width: 720px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.form-icon {
+    padding: 15px;
+    flex: 1;
+}
+
+.form-icon > svg{
+    display: inline-block;
+    height: 16px;
+}
+
+.sub-form-container input {
+    padding: 15px 0;
+    outline: none;
+    flex: 30;
+}
+
+.sub-form-container button {
+    display: inline-block;
+    height: 49px;
+    padding: 15px;
+    color: var(--gray);
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links ul li {
+    padding: 0 8px;
+}
+
+.social-link > svg {
+    display: inline-block;
+    height: 24px;
+    fill: #fff;
+    opacity: .4;
+    transition: all .25s ease;
+}
+
+.social-link > svg:hover {
+    opacity: 1;
+}
+
+/* watch */ 
+.watch {
+    background-color: var(--light-gray);
+    margin:0 auto 100px;
+    padding: 112px 48px;
+    max-width: 1500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
 
 
 
