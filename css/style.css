@@ -238,7 +238,7 @@ a {
 
 /* Popular */
 .popular {
-    margin:0 auto 100px;
+    margin:0 auto;
     padding: 64px 48px;
     max-width: 1500px;
     font-family: 'Roboto', sans-serif;
@@ -294,8 +294,8 @@ a {
 
 /* Latest */
 .latest {
-    margin:0 auto 100px;
-    padding: 0 48px;
+    margin:0 auto;
+    padding: 112px 48px;
     max-width: 1500px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -303,7 +303,7 @@ a {
 .latest h2 {
     font-size: 2.5em;
     font-family: 'Archivo Black', sans-serif;
-    margin: 1.5rem;
+    margin: 0 1.5rem;
 }
 
 .latest > div:last-child{
@@ -408,6 +408,73 @@ a {
     grid-column: 4/span 1;
 }
 
+/* explore */
+.explore {
+    background-color: var(--light-gray);
+    margin:0 auto 100px;
+    padding: 112px 48px;
+    max-width: 1500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.explore > h2 {
+    margin-bottom: 64px;
+    font-size: 2.5em;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.channels-container {
+    display: flex;
+}
+
+.channel {
+    margin-right: 1rem;
+    width: 100px;
+    height: 232px;
+    flex-basis: calc(20% - 1rem);
+}
+
+.channel > article {
+    height: 100%;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    line-height: 24px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel > article img {
+    width: 120px;
+}
+
+.channel1 > article {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=215%2C265&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-plugged.jpg&signature=7702697239da7f47625866f9bd0b7cad");
+}
+
+.channel2 > article {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=215%2C265&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-neural.jpg&signature=e2214820cceb78b748acdb3a73536e20");
+}
+
+.channel3 > article {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=215%2C265&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-shift.jpg&signature=7bd918d46dfac160834d7ccdde543fe9");
+}
+
+.channel4 > article {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=215%2C265&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-growth-quarters.jpg&signature=3fffd5be376accdf91664a5906cebe68");
+}
+
+.channel5 > article {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=215%2C265&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-hardfork.jpg&signature=6cf234f776f9a1fa060101f1d8d9866b");
+}
+
+.channel1 > article, .channel2 > article, .channel3 > article, .channel4 > article, .channel5 > article {
+    background-size: cover;
+    background-position: 50%;
+}   
 
 
 
