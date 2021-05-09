@@ -578,7 +578,7 @@ a {
 /* watch */ 
 .watch {
     background-color: var(--light-gray);
-    margin:0 auto 100px;
+    margin:0 auto;
     padding: 112px 48px;
     max-width: 1500px;
     font-family: 'Roboto', sans-serif;
@@ -685,7 +685,6 @@ a {
     background-position: 50% 50%;
     -o-object-position: 50% 50%;
     object-position: 50% 50%;
-    
 }
 
 .thumbnail-link > div:last-child > span:hover{
@@ -704,6 +703,171 @@ a {
     z-index: 20;
     background: linear-gradient(transparent,#f7f8f8);
 }
+
+/* work */
+.work-companies {
+    margin:0 auto;
+    padding: 6em 3em 2em;
+    max-width: 1500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.work {
+    display: flex;
+}
+
+.work-text {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    color: #505666;
+}
+
+.work-text > h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: .5rem;
+}
+
+.work-text > h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.work-text > p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 2rem;
+}
+
+.work-text > a {
+    display: inline-block;
+    width: 145px;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #00cccc;
+    position: relative;
+    cursor: pointer;
+	position: relative;
+	user-select: none;
+	padding: 0 1.5rem;
+	vertical-align: middle;
+    text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+    letter-spacing: .025em;
+	line-height: 48px;
+}
+
+.work-text > a:hover {
+    background-color: rgb(0, 221, 221);
+}
+
+.work-icons-container {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.work-icon {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.work-icon > div {
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-icon > div > img {
+    position: absolute;
+    background-size: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background-position: 50% 50%;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+}
+.work-icon > h4 {
+    font-size: 1.125rem;
+    margin-left: 1rem;
+}
+
+.companies {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 80rem;
+    position: relative;
+}
+
+.companies ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.companies ul li {
+    flex-basis: 12.5%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 12.5%;
+    border-width: .25rem;
+}
+
+.companies ul li a {
+    position: relative;
+    display: block;
+    opacity: .5;
+    transition: .25s;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.companies ul li a:hover {
+    opacity: .75;
+}
+
+.companies ul li a img {
+    position: absolute;
+	background-size: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	background-position: 50% 50%;
+	-o-object-position: 50% 50%;
+	object-position: 50% 50%;
+    
+}
+
 
 
 
