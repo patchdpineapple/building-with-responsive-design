@@ -57,7 +57,6 @@ a {
 
 .header-logo svg {
     height: 3.5rem;
-    transition: fill .25s ease;
 }
 
 /* menu */
@@ -93,7 +92,8 @@ a {
     float: left;
     padding: 15px 12px;
     color: var(--dark-gray);
-    font-size: 12px;
+    font-size: .875rem;
+    font-weight: 400;
 }
 
 .nav-links ul li:hover {
@@ -868,8 +868,94 @@ a {
     
 }
 
+/* footer */
+.main-footer {
+    max-width: 1500px;
+    min-height: 336px;
+    color: #fff;
+    background-color: #000;
+    padding: 4rem 0;
+}
+.footer-links {
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 270px;
+    
+}
 
+.footer-socials {
+    flex-basis: 50%;
+    max-width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
 
+.footer-logo svg {
+    fill: #fff;
+    height: 2.5rem;
+}
 
+.footer-text  {
+    margin: 1rem 0;
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.footer-social-links ul {
+    justify-content: flex-start;
+}
+
+.footer-social-links ul li:first-child {
+    padding-left: 0;
+}
+
+.footer-more, .footer-about {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.footer-more > h2, .footer-about > h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.footer-more ul, .footer-about ul {
+    line-height: 28px;
+}
+
+.footer-more ul li a, .footer-about ul li a {
+    color: rgb(0, 204, 204);
+    font-family: 'Roboto', sans-serif;
+}
+
+.copyright {
+    border-top: 1px solid rgba(112, 96, 96, 0.473);
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: rgb(167,170,178);
+}
+
+.copyright > p a {
+    color: #fff;
+    font-weight: 600;
+    transition: all .25s ease-in-out;
+}
+
+.copyright > p a:hover {
+    color: #cc0099;
+}
+   
 
 /* media query */
