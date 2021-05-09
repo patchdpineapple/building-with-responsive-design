@@ -533,6 +533,10 @@ a {
     flex: 30;
 }
 
+::placeholder {
+    color: var(--gray);
+}
+
 .sub-form-container button {
     display: inline-block;
     height: 49px;
@@ -546,7 +550,7 @@ a {
 }
 
 .social-links {
-    margin-top: 15px;
+    margin-top: 24px;
 }
 
 .social-links ul {
@@ -579,6 +583,126 @@ a {
     max-width: 1500px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    position: relative;
+
+}
+
+.watch > h2 {
+    margin-bottom: 64px;
+    font-size: 2.5em;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 1.5rem;
+    margin-bottom: 64px;
+}
+
+.watch-container {
+    /* max-width: 1500px; */
+    margin: 1.5rem;
+    display: flex;
+}
+
+.video-container {
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container header{
+   padding: 2.75rem 1.5rem;
+   height: 143px;
+   background: #000;
+   color: #fff;
+   display: flex;
+   flex-flow: column;
+   font-size: 18px;
+   line-height: 1.75;
+   border-top: 1px solid rgb(36,38,44);
+}
+
+.video-container header p {
+   font-size: 13px;
+   font-weight: 300;
+   color: var(--gray);
+}
+
+.thumbnails {
+    width: calc(224px + 1.5rem);
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnails-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+.thumbnail-link {
+    padding: 0 0 24px 24px;
+    line-height: 24px;
+}
+
+.thumbnail-link > div:first-child {
+    padding-top: 56.25%;
+    display: block;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+
+.thumbnail-link > div:first-child > img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    
+}
+
+.thumbnail-link > div:last-child > span:hover{
+    text-decoration: underline;
+    text-decoration-color: #cc0099;
+    text-underline-offset: 4px;
+}
+
+.white-fade {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: calc(224px + 1.5rem);
+    height: 32px;
+    z-index: 20;
+    background: linear-gradient(transparent,#f7f8f8);
 }
 
 
