@@ -351,10 +351,13 @@ a {
     transition-duration: .1s;
     display: flex;
     align-items: center;
+    color: var(--dark-gray);
+
 }
 
 .latest-wrapper > div:last-child a:hover {
     border-color:  #868991;
+    color: #000;
 }
 
 .latest-wrapper > div:last-child a::after{
@@ -1147,13 +1150,19 @@ a {
         grid-row: 4/span 1;
     }
 
+    /* explore */
+    .channel {
+        min-width: 170px;
+        
+    }
+
     /* subscribe */
     .subscribe > h1 {
         font-size: 2rem;
         
     }
 
-    .nav-mail {
+    .form-icon {
         display: block;
     }
 
@@ -1198,8 +1207,6 @@ a {
         padding: 20px 0;
     }
 
-    
-
     .companies ul li {
         flex-basis: 33.3333%;
         max-width: 33.3333%;
@@ -1231,4 +1238,105 @@ a {
         height: 2.5rem;
     }
 
+}
+
+@media (max-width: 768px) {
+    /* latest */
+    .latest {
+        padding: 112px 1.5rem;
+        padding-left: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
+    .news-container {
+        display: flex;
+        flex-flow:column
+    }
+
+    .news {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .news a img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .news a div {
+        margin-left: 10px;
+    }
+
+    .news a {
+        display: flex;
+    }
+
+    .latest-wrapper > div:last-child a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* subscribe */
+    .subscribe {
+        text-align: center;
+    }
+
+    .subscribe > h1 {
+        font-size: 1.5rem;
+    }
+
+    .sub-form-container form {
+        width: 90vw;
+    }
+
+    /* watch */
+    .watch {
+        padding: 4rem 0;
+    }
+
+    .watch-wrapper > h2 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 2rem;
+    }
+
+    .watch-container {
+        margin: 1.5rem 0;
+        flex-flow: column;
+    }
+
+    .thumbnails {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .thumbnails-container {
+        position: relative;
+        flex-flow: row;
+        overflow: hidden;
+        overflow-x: scroll;
+        overflow-y: auto;
+    }
+    
+    .thumbnail-link {
+        flex: 0 0 224px;
+        padding: 0 0 20px 0px;
+        margin-left: 20px;
+    }
+
+    .thumbnail-link:first-child {
+        margin-left: 0;
+    }
+
+    /* work/companies */
+    .companies ul li {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
 }
