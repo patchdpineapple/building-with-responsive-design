@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="mobile-menu"></div>
-      <div class="menu">
+    <div class="menu">
+      <div class="menu-wrapper">
+        <div class="mobile-menu"><img alt="" src=""></div>
         <a class="nav-logo">
           <svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 66 16">
             <path
@@ -19,22 +19,24 @@
           </svg>
         </a>
         <nav class="nav-links">
-            <ul>
-                <li><a>HOME</a></li>
-                <li><a class="link-arrow">NEWS</a></li>
-                <li><a class="link-arrow">EVENTS</a></li>
-                <li><a>PROGRAMS</a></li>
-                <li><a>SPACES</a></li>
-                <li><a class="link-arrow">MORE</a></li>
-            </ul>
+          <ul>
+              <li><a>HOME</a></li>
+              <li><a class="link-arrow">NEWS</a></li>
+              <li><a class="link-arrow">EVENTS</a></li>
+              <li><a>PROGRAMS</a></li>
+              <li><a>SPACES</a></li>
+              <li><a class="link-arrow">MORE</a></li>
+          </ul>
         </nav>
         <a class="nav-mail">
-            <svg class="c-button__icon" viewBox="0 0 16 16">
-                <use xlink:href="/assets/next/img/icons.svg#mail"></use>
-                <path d="M1.11621 4.2666a2.0026 2.0026 0 0 1-.583-.8833v-.7666A.47788.47788 0 0 1 .667 2.2749a.56688.56688 0 0 1 .3164-.1748 49.3662 49.3662 0 0 1 14.0166 0 .57417.57417 0 0 1 .333.1748.482.482 0 0 1 .13379.3418v.7666a2.0026 2.0026 0 0 1-.583.8833L9.2002 8.56689A1.88658 1.88658 0 0 1 8 8.93311a1.88658 1.88658 0 0 1-1.2002-.36622zM10.18359 10l5.28321-4.0498v7.4331a.48117.48117 0 0 1-.13379.3418.57141.57141 0 0 1-.333.1748 48.721 48.721 0 0 1-7 .5 49.29676 49.29676 0 0 1-7.0166-.5.564.564 0 0 1-.31641-.1748.47707.47707 0 0 1-.13379-.3418V5.9502L5.81641 10A3.5224 3.5224 0 0 0 8 10.6665 3.5224 3.5224 0 0 0 10.18359 10z"></path>
-            </svg>
+          <svg class="c-button__icon" viewBox="0 0 16 16">
+              <use xlink:href="/assets/next/img/icons.svg#mail"></use>
+              <path d="M1.11621 4.2666a2.0026 2.0026 0 0 1-.583-.8833v-.7666A.47788.47788 0 0 1 .667 2.2749a.56688.56688 0 0 1 .3164-.1748 49.3662 49.3662 0 0 1 14.0166 0 .57417.57417 0 0 1 .333.1748.482.482 0 0 1 .13379.3418v.7666a2.0026 2.0026 0 0 1-.583.8833L9.2002 8.56689A1.88658 1.88658 0 0 1 8 8.93311a1.88658 1.88658 0 0 1-1.2002-.36622zM10.18359 10l5.28321-4.0498v7.4331a.48117.48117 0 0 1-.13379.3418.57141.57141 0 0 1-.333.1748 48.721 48.721 0 0 1-7 .5 49.29676 49.29676 0 0 1-7.0166-.5.564.564 0 0 1-.31641-.1748.47707.47707 0 0 1-.13379-.3418V5.9502L5.81641 10A3.5224 3.5224 0 0 0 8 10.6665 3.5224 3.5224 0 0 0 10.18359 10z"></path>
+          </svg>
         </a>
       </div>
+    </div>
+    <header class="main-header">
       <a class="header-logo"><svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 66 16">
         <path
           d="M32.23993 5A6.00284 6.00284 0 0 1 34 9.24261V16h-6v-5.929a2.00249 2.00249 0 0 0-.58856-1.41424l-2.07239-2.07101A2.00315 2.00315 0 0 0 23.92346 6H22v10h-6V0h8.75189a6 6 0 0 1 4.24268 1.75739zM60 0v5.929a2.00245 2.00245 0 0 1-.58856 1.41418l-2.07385 2.071A1.99969 1.99969 0 0 1 55.9234 10h-2.88214A5.99166 5.99166 0 0 0 54 6.75732V0h-6v5.929a2.00245 2.00245 0 0 1-.58856 1.41418l-2.07385 2.071A1.99969 1.99969 0 0 1 43.9234 10H42V0h-6v16h8.75189a6.003 6.003 0 0 0 4.244-1.75739L51 12.23938V16h5.75189a6.003 6.003 0 0 0 4.244-1.75739l3.244-3.24267A6.00264 6.00264 0 0 0 66 6.75732V0zM0 6h4v10h6V6h4V0H0z"
@@ -200,48 +202,47 @@
             </a>
           </article>
         </div>
-      <div>
-        <a>ALL NEWS</a>
-      </div>
+        <div>
+          <a>ALL NEWS</a>
+        </div>
       </div>
     </section>
     <section class="explore">
       <div class="explore-wrapper">
         <h2>Explore our channels</h2>
-      <div class="channels-container">
-        <a class="channel channel1">
-          <article>
-            <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/plugged.svg">
-            <h6>Your sardonic source for consumer tech stories</h6>
-          </article>
-        </a>
-        <a class="channel channel2">
-          <article>
-            <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/neural.svg">
-            <h6>Human-centric AI news and analysis</h6>
-          </article>
-        </a>
-        <a class="channel channel3">
-          <article>
-            <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/shift.svg">
-            <h6>Driving the future of sustainable mobility</h6>
-          </article>
-        </a>
-        <a class="channel channel4">
-          <article>
-            <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/growth-quarters.svg">
-            <h6>No-nonsense perspectives on startup growth</h6>
-          </article>
-        </a>
-        <a class="channel channel5">
-          <article>
-            <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/hardfork.svg">
-            <h6>Inside money, markets, and Big Tech</h6>
-          </article>
-        </a>
+        <div class="channels-container">
+          <a class="channel channel1">
+            <article>
+              <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/plugged.svg">
+              <h6>Your sardonic source for consumer tech stories</h6>
+            </article>
+          </a>
+          <a class="channel channel2">
+            <article>
+              <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/neural.svg">
+              <h6>Human-centric AI news and analysis</h6>
+            </article>
+          </a>
+          <a class="channel channel3">
+            <article>
+              <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/shift.svg">
+              <h6>Driving the future of sustainable mobility</h6>
+            </article>
+          </a>
+          <a class="channel channel4">
+            <article>
+              <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/growth-quarters.svg">
+              <h6>No-nonsense perspectives on startup growth</h6>
+            </article>
+          </a>
+          <a class="channel channel5">
+            <article>
+              <img alt="" src="https://next.tnwcdn.com/assets/next/img/placeholder/media/hardfork.svg">
+              <h6>Inside money, markets, and Big Tech</h6>
+            </article>
+          </a>
+        </div>
       </div>
-      </div>
-      
     </section>
     <section class="subscribe">
       <h1>Get the snarkiest newsletter in tech</h1>
@@ -313,7 +314,6 @@
           </li>
         </ul>
       </div>
-
     </section>
     <section class="watch">
       <div class="watch-wrapper">
@@ -429,11 +429,8 @@
             </div>
             <div class="white-fade"></div>
           </div>
-  
         </div>
       </div>
-     
-
     </section>
     <section class="work-companies">
       <div class="work">
@@ -561,30 +558,32 @@
             </ul>
           </div>
         </div>
-        <div class="footer-more">
-          <h2>MORE TNW</h2>
-          <ul>
-            <li><a>Media</a></li>
-            <li><a>Events</a></li>
-            <li><a>Programs</a></li>
-            <li><a>Spaces</a></li>
-            <li><a>Newsletters</a></li>
-          </ul>
+        <div class="footer-more-about-wrapper">
+          <div class="footer-more">
+            <h2>MORE TNW</h2>
+            <ul>
+              <li><a>Media</a></li>
+              <li><a>Events</a></li>
+              <li><a>Programs</a></li>
+              <li><a>Spaces</a></li>
+              <li><a>Newsletters</a></li>
+            </ul>
+          </div>
+          <div class="footer-about">
+            <h2>ABOUT TNW</h2>
+            <ul>
+              <li><a>Contact Us</a></li>
+              <li><a>Partner with us</a></li>
+              <li><a>Advertise</a></li>
+              <li><a>Jobs</a></li>
+              <li><a>Terms & Conditions</a></li>
+              <li><a>Cookie Statement</a></li>
+              <li><a>Privacy Statement</a></li>
+              <li><a>Editorial Policy</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="footer-about">
-          <h2>ABOUT TNW</h2>
-          <ul>
-            <li><a>Contact Us</a></li>
-            <li><a>Partner with us</a></li>
-            <li><a>Advertise</a></li>
-            <li><a>Jobs</a></li>
-            <li><a>Terms & Conditions</a></li>
-            <li><a>Cookie Statement</a></li>
-            <li><a>Privacy Statement</a></li>
-            <li><a>Editorial Policy</a></li>
-
-          </ul>
-        </div>
+        
       </div>
       <div class="copyright">
         <p>TNW is a <a>Financial Times</a> company.</p>
