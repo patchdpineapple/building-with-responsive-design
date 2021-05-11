@@ -1159,6 +1159,21 @@ a {
     }
 
     /* explore */
+    .explore {
+        padding: 112px 0;
+    }
+
+    .explore-wrapper {
+        width: 100vw;
+        padding-left: 3rem;
+    }
+
+
+    .channels-container {
+        padding-right: 3rem;
+
+    }
+
     .channel {
         min-width: 216px;
     }
@@ -1339,13 +1354,22 @@ a {
 
     /* explore */
     .explore {
-        padding: 4rem 48px;
+        padding: 4rem 0;
     }
+
+    .explore-wrapper {
+        padding: 0;
+    }
+    
 
     .explore-wrapper > h2 {
         font-size: 1.7em;
         text-align: center;
         margin-bottom: 2rem;
+    }
+
+    .channels-container {
+        padding: 0 1rem;
     }
 
     /* subscribe */
@@ -1416,11 +1440,6 @@ a {
     /* popular */ 
     .popular {
         padding: 64px .5rem;
-    }
-
-    /* explore */
-    .explore {
-        padding: 4rem .5rem;
     }
 
     /* subscribe */
