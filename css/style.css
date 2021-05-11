@@ -1265,8 +1265,16 @@ a {
 @media (max-width: 768px) {
     /* headlines */
     .headlines {
-        padding-left: .5em;
-        padding-right: .5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .headlines-container {
+        padding: 0 .5rem;
+    }
+
+    .advert-headline {
+        padding: 0 .5rem;
     }
 
     .headlines-container {
@@ -1437,6 +1445,8 @@ a {
 }
 
 @media (max-width: 400px) {
+    
+
     /* popular */ 
     .popular {
         padding: 64px .5rem;
